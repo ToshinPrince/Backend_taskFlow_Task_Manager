@@ -20,6 +20,8 @@ const createTask = async (req, res) => {
 };
 
 const getTask = (req, res) => {
+  try {
+  } catch (error) {}
   res.json({ id: req.params.id });
 };
 
